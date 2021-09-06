@@ -1,0 +1,60 @@
+.modalForm{
+   background: #141625;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   max-width: 500px;
+   align-items: center;
+   padding : 2rem;
+   border-radius: 5px;
+   box-shadow: 0 0 60px rgba(0, 0, 0, .05);
+   text-align: center;
+   position: relative;
+   color: #fffdfe;
+}
+.modalForm label{
+   font-size: 1rem;
+   text-align: left;
+   margin-bottom: 5px;
+
+}
+.modalForm input, textarea, select{
+   background-color: #1f213a;
+   color: #fffdfe;
+   font-size: 1rem;
+   text-align: left;
+   padding: 4px 8px;
+   border: none;
+   outline: 1px solid #0b0b13;
+}
+.modalForm form div{
+   display: flex;
+   margin-top: 10px;
+   flex-direction: column;
+}
+.modalForm .juntos{
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+}
+.modalForm .juntos div{
+   width: 45%;
+}
+.modalForm button:last-child{
+   width: 100px;
+   margin-top: 30px;
+   font-size: 1rem;
+   font-weight: 600;
+   border: none;
+   padding: 2% 4%;
+   border-radius: 30px;
+   color: #fffdfe;
+   background-color: #7c5df9;
+   transition: filter .2s;
+}
+.modalForm button:last-child:hover{
+   filter: brightness(.8);
+}
+
+
+ 
